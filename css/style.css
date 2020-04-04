@@ -11,12 +11,12 @@ h6 {
     font-weight: bold;
 }
 
-.form-control {
+/* .form-control {
     padding-top: 0.875rem;
     padding-bottom: 0.875rem;
     height: 2.75rem;
     border-color: #c2c2c2;
-}
+} */
 .theme-bg-light {
     background: #fafafa !important;
 }
@@ -220,78 +220,7 @@ h6 {
     top: 1.25rem;
     color: #fff;
 }
-.blog-post .title {
-    font-weight: bold;
-    font-size: 2rem;
-}
-.blog-post .blog-post-body p,
-.blog-post .blog-post-body li {
-    font-size: 1.125rem;
-    line-height: 1.6;
-}
-.blog-post .blog-post-body h1 {
-    font-size: 2.125rem;
-}
-.blog-post .blog-post-body h2 {
-    font-size: 2rem;
-}
-.blog-post .blog-post-body h3 {
-    font-size: 1.75rem;
-}
-.blog-post .blog-post-body h4 {
-    font-size: 1.5rem;
-}
-.blog-post .blog-post-body h5 {
-    font-size: 1.25rem;
-}
-.blog-post .blog-post-body h6 {
-    font-size: 1.125rem;
-}
-.blog-post .image-caption {
-    color: #8f8f8f;
-    font-size: 0.875rem;
-}
-.blog-post .image-caption a {
-    color: #8f8f8f;
-    text-decoration: underline;
-}
-.blog-post .image-caption a:hover {
-    color: #4f4f4f;
-}
-.blog-post .blockquote {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    border-left: 2px solid #292929;
-    font-size: 1.5rem;
-}
-.blog-post .blockquote p {
-    font-size: 1.5rem;
-}
-.about-section .heading {
-    font-size: 2rem;
-}
-.about-section p,
-.about-section li {
-    font-size: 1.125rem;
-    line-height: 1.6;
-}
-.about-section h1 {
-    font-size: 2.125rem;
-}
-.about-section h2 {
-    font-size: 2rem;
-}
-.about-section h3 {
-    font-size: 1.75rem;
-}
-.about-section h4 {
-    font-size: 1.5rem;
-}
-.about-section h5 {
-    font-size: 1.25rem;
-}
-.about-section h6 {
-    font-size: 1.125rem;
-}
+
 @media (min-width: 768px) {
     .theme-btn-cta {
         width: inherit;
@@ -338,114 +267,7 @@ h6 {
 body {
     overflow-x: hidden;
 }
-.config-trigger {
-    position: absolute;
-    top: 30px;
-    left: -36px;
-    width: 36px;
-    height: 36px;
-    background: #223142;
-    color: #fff;
-    text-align: center;
-    border-radius: 4px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    text-decoration: none;
-}
-.config-trigger:hover {
-    background: #111820;
-    text-decoration: none;
-}
-.config-trigger:hover .fa-cog {
-    color: #fff;
-}
-.config-trigger .fa-cog {
-    font-size: 1.25rem;
-    display: block;
-    color: #fff;
-}
-.config-panel {
-    position: absolute;
-    top: 50px;
-    right: -190px;
-    z-index: 30;
-    width: 190px;
-}
-.config-panel .panel-inner {
-    position: relative;
-    background: #223142;
-    color: #fff;
-    padding: 15px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.config-panel .panel-title {
-    font-weight: 600;
-    margin-bottom: 10px;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #fff;
-}
-.config-panel label {
-    color: #fff;
-}
-.config-panel #color-options {
-    margin-bottom: 0px;
-}
-.config-panel #color-options li a {
-    display: block;
-    width: 28px;
-    height: 28px;
-    border: 2px solid transparent;
-    margin-top: 5px;
-}
-.config-panel #color-options li a:hover {
-    -webkit-opacity: 0.9;
-    -moz-opacity: 0.9;
-    opacity: 0.9;
-    border: 2px solid rgba(255, 255, 255, 0.9);
-}
-.config-panel #color-options li.list-inline-item {
-    margin-right: 5px;
-}
-.config-panel #color-options li.active a {
-    border: 2px solid #fff;
-}
-.config-panel #color-options li.theme-1 a {
-    background: #5fcb71;
-}
-.config-panel #color-options li.theme-2 a {
-    background-color: #5bc3d5;
-}
-.config-panel #color-options li.theme-3 a {
-    background-color: #3b7eeb;
-}
-.config-panel #color-options li.theme-4 a {
-    background-color: #5ecca9;
-}
-.config-panel #color-options li.theme-5 a {
-    background-color: #eea73b;
-}
-.config-panel #color-options li.theme-6 a {
-    background-color: #5469c9;
-}
-.config-panel #color-options li.theme-7 a {
-    background-color: #5d6ba7;
-}
-.config-panel #color-options li.theme-8 a {
-    background-color: #6c51a4;
-}
-.config-panel .close {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    color: #fff;
-}
-.config-panel .close .fa {
-    color: #fff;
-}
+
 .nav-pills .nav-link{
     color: #388e3c
 }
@@ -454,14 +276,14 @@ body {
 }
 
 /* Cartão de crédito */
-input {
+/* input {
     margin-top: 3px;
     padding: 15px;
     font-size: 16px;
     width: 100%;
     border-radius: 3px;
     border: 1px solid #dcdcdc;
-}
+} */
 
 .ccicon {
     height: 38px;
@@ -470,7 +292,9 @@ input {
     top: calc(50% - 17px);
     width: 60px;
 }
-
+.cc-img {
+    margin: 0 auto;
+}
 /* CREDIT CARD IMAGE STYLING */
 
 .creditcard svg#cardfront,
