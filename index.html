@@ -44,7 +44,8 @@
                       <ul class="social-list list-inline py-3 mx-auto">
                         <li class="list-inline-item">
                           <a
-                            href="#"
+                            target="_blank"
+                            href="https://twitter.com/romariopd13"
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Twitter"
@@ -53,7 +54,8 @@
                         </li>
                         <li class="list-inline-item">
                           <a
-                            href="#"
+                          target="_blank"
+                            href="https://www.linkedin.com/in/romario-pires-dias-a96a7a130"
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Linkedin"
@@ -62,7 +64,8 @@
                         </li>
                         <li class="list-inline-item">
                           <a
-                            href="#"
+                          target="_blank"
+                            href="https://github.com/romariopd13"
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Github"
@@ -71,7 +74,8 @@
                         </li>
                         <li class="list-inline-item">
                           <a
-                            href="#"
+                          target="_blank"
+                            href="https://www.instagram.com/romariopd13/"
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Instagram"
@@ -80,7 +84,8 @@
                         </li>
                         <li class="list-inline-item">
                           <a
-                            href="#"
+                          target="_blank"
+                            href="https://www.facebook.com/romario.pires11"
                             data-toggle="tooltip"
                             data-placement="top"
                             title="Facebook"
@@ -754,7 +759,11 @@
                                 <input type="tel" pattern="[0-9]*"
                                 placeholder="XXXXXXXX" name="cep"
                                 onkeypress="$(this).mask('00000000')" inputmode="numeric" class="form-control" id="cep" placeholder="Apartment, studio, or floor">
-                              </div>
+                                <div id="loading" class="spinner-border text-success" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                  </div>  
+                            </div>
+                              
                           <div class="form-group col-md-8">
                             <label for="cidade">Cidade</label>
                             <input type="text" name="cidade" class="form-control" id="cidade">

@@ -49,9 +49,11 @@ $(document).ready(function () {
     // }else{
     //     $("#btn_credcard").attr("disabled", false);
     // }
+    $("#loading").css("display", "none");
 
     $("input[name=cep]").blur(function () {
         var cep = $(this).val().replace(/[^0-9]/, '');
+        $("#loading").css("display", "block");
         if (cep) {
             var url = 'https://viacep.com.br/ws/' + cep + '/json/';
             $.ajax({
@@ -62,8 +64,10 @@ $(document).ready(function () {
                 success: function (json) {
                     $("input[name=cidade]").val(json.localidade);
                     $("input[name=uf]").val(json.uf);
+                    $("#loading").css("display", "none");
                 }
             });
+            
         }
     });
 
